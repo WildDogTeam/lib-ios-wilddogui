@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396FC9031BBA6ACA0025469E /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396FC9011BBA6AC50025469E /* Wilddog.framework */; };
+		396FC9041BBA6ACA0025469E /* Wilddog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 396FC9011BBA6AC50025469E /* Wilddog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA0F74A11BB2C91B002D9F75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74A01BB2C91B002D9F75 /* main.m */; };
+		EA0F74BA1BB2C91B002D9F75 /* WilddogUIChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74B91BB2C91B002D9F75 /* WilddogUIChatTests.m */; };
+		EA0F74C51BB2C91B002D9F75 /* WilddogUIChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74C41BB2C91B002D9F75 /* WilddogUIChatUITests.m */; };
+		EA0F74E41BB2C97D002D9F75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74D31BB2C97D002D9F75 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F74E61BB2C97D002D9F75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74D61BB2C97D002D9F75 /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
+		EA0F74E71BB2C97D002D9F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74D81BB2C97D002D9F75 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		EA0F74E81BB2C97D002D9F75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74DA1BB2C97D002D9F75 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		EA0F74E91BB2C97D002D9F75 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74DC1BB2C97D002D9F75 /* Message.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F74EA1BB2C97D002D9F75 /* MessageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74DE1BB2C97D002D9F75 /* MessageDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F74EB1BB2C97D002D9F75 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74E01BB2C97D002D9F75 /* MessageTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F74EC1BB2C97D002D9F75 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74E11BB2C97D002D9F75 /* MessageTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		EA0F74ED1BB2C97D002D9F75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74E31BB2C97D002D9F75 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F74FC1BB2D17F002D9F75 /* WilddogUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0F74FB1BB2D17F002D9F75 /* WilddogUI.framework */; settings = {ASSET_TAGS = (); }; };
+		EA0F74FE1BB2D211002D9F75 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0F74FD1BB2D211002D9F75 /* JavaScriptCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA0F74B61BB2C91B002D9F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0F74941BB2C91B002D9F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0F749B1BB2C91B002D9F75;
+			remoteInfo = WilddogUIChat;
+		};
+		EA0F74C11BB2C91B002D9F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0F74941BB2C91B002D9F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0F749B1BB2C91B002D9F75;
+			remoteInfo = WilddogUIChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA0F75031BB2D54E002D9F75 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				396FC9041BBA6ACA0025469E /* Wilddog.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		396FC9011BBA6AC50025469E /* Wilddog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wilddog.framework; sourceTree = "<group>"; };
+		EA0F749C1BB2C91B002D9F75 /* WilddogUIChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WilddogUIChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0F74A01BB2C91B002D9F75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA0F74B01BB2C91B002D9F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0F74B51BB2C91B002D9F75 /* WilddogUIChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilddogUIChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0F74B91BB2C91B002D9F75 /* WilddogUIChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WilddogUIChatTests.m; sourceTree = "<group>"; };
+		EA0F74BB1BB2C91B002D9F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0F74C01BB2C91B002D9F75 /* WilddogUIChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilddogUIChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0F74C41BB2C91B002D9F75 /* WilddogUIChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WilddogUIChatUITests.m; sourceTree = "<group>"; };
+		EA0F74C61BB2C91B002D9F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0F74D21BB2C97D002D9F75 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA0F74D31BB2C97D002D9F75 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA0F74D71BB2C97D002D9F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		EA0F74D91BB2C97D002D9F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		EA0F74DA1BB2C97D002D9F75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA0F74DB1BB2C97D002D9F75 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		EA0F74DC1BB2C97D002D9F75 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		EA0F74DD1BB2C97D002D9F75 /* MessageDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDataSource.h; sourceTree = "<group>"; };
+		EA0F74DE1BB2C97D002D9F75 /* MessageDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDataSource.m; sourceTree = "<group>"; };
+		EA0F74DF1BB2C97D002D9F75 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		EA0F74E01BB2C97D002D9F75 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		EA0F74E11BB2C97D002D9F75 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		EA0F74E21BB2C97D002D9F75 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA0F74E31BB2C97D002D9F75 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA0F74FB1BB2D17F002D9F75 /* WilddogUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WilddogUI.framework; sourceTree = "<group>"; };
+		EA0F74FD1BB2D211002D9F75 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0F74991BB2C91B002D9F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0F74FE1BB2D211002D9F75 /* JavaScriptCore.framework in Frameworks */,
+				EA0F74FC1BB2D17F002D9F75 /* WilddogUI.framework in Frameworks */,
+				396FC9031BBA6ACA0025469E /* Wilddog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0F74B21BB2C91B002D9F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0F74BD1BB2C91B002D9F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0F74931BB2C91B002D9F75 = {
+			isa = PBXGroup;
+			children = (
+				EA0F74FD1BB2D211002D9F75 /* JavaScriptCore.framework */,
+				EA0F749E1BB2C91B002D9F75 /* WilddogUIChat */,
+				EA0F74B81BB2C91B002D9F75 /* WilddogUIChatTests */,
+				EA0F74C31BB2C91B002D9F75 /* WilddogUIChatUITests */,
+				EA0F749D1BB2C91B002D9F75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0F749D1BB2C91B002D9F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F749C1BB2C91B002D9F75 /* WilddogUIChat.app */,
+				EA0F74B51BB2C91B002D9F75 /* WilddogUIChatTests.xctest */,
+				EA0F74C01BB2C91B002D9F75 /* WilddogUIChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0F749E1BB2C91B002D9F75 /* WilddogUIChat */ = {
+			isa = PBXGroup;
+			children = (
+				396FC9011BBA6AC50025469E /* Wilddog.framework */,
+				EA0F74FB1BB2D17F002D9F75 /* WilddogUI.framework */,
+				EA0F74D21BB2C97D002D9F75 /* AppDelegate.h */,
+				EA0F74D31BB2C97D002D9F75 /* AppDelegate.m */,
+				EA0F74D51BB2C97D002D9F75 /* Base.lproj */,
+				EA0F74DA1BB2C97D002D9F75 /* Images.xcassets */,
+				EA0F74DB1BB2C97D002D9F75 /* Message.h */,
+				EA0F74DC1BB2C97D002D9F75 /* Message.m */,
+				EA0F74DD1BB2C97D002D9F75 /* MessageDataSource.h */,
+				EA0F74DE1BB2C97D002D9F75 /* MessageDataSource.m */,
+				EA0F74DF1BB2C97D002D9F75 /* MessageTableViewCell.h */,
+				EA0F74E01BB2C97D002D9F75 /* MessageTableViewCell.m */,
+				EA0F74E11BB2C97D002D9F75 /* MessageTableViewCell.xib */,
+				EA0F74E21BB2C97D002D9F75 /* ViewController.h */,
+				EA0F74E31BB2C97D002D9F75 /* ViewController.m */,
+				EA0F74B01BB2C91B002D9F75 /* Info.plist */,
+				EA0F749F1BB2C91B002D9F75 /* Supporting Files */,
+			);
+			path = WilddogUIChat;
+			sourceTree = "<group>";
+		};
+		EA0F749F1BB2C91B002D9F75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F74A01BB2C91B002D9F75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0F74B81BB2C91B002D9F75 /* WilddogUIChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F74B91BB2C91B002D9F75 /* WilddogUIChatTests.m */,
+				EA0F74BB1BB2C91B002D9F75 /* Info.plist */,
+			);
+			path = WilddogUIChatTests;
+			sourceTree = "<group>";
+		};
+		EA0F74C31BB2C91B002D9F75 /* WilddogUIChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F74C41BB2C91B002D9F75 /* WilddogUIChatUITests.m */,
+				EA0F74C61BB2C91B002D9F75 /* Info.plist */,
+			);
+			path = WilddogUIChatUITests;
+			sourceTree = "<group>";
+		};
+		EA0F74D51BB2C97D002D9F75 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F74D61BB2C97D002D9F75 /* LaunchScreen.xib */,
+				EA0F74D81BB2C97D002D9F75 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0F749B1BB2C91B002D9F75 /* WilddogUIChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0F74C91BB2C91B002D9F75 /* Build configuration list for PBXNativeTarget "WilddogUIChat" */;
+			buildPhases = (
+				EA0F74981BB2C91B002D9F75 /* Sources */,
+				EA0F74991BB2C91B002D9F75 /* Frameworks */,
+				EA0F749A1BB2C91B002D9F75 /* Resources */,
+				EA0F75031BB2D54E002D9F75 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WilddogUIChat;
+			productName = WilddogUIChat;
+			productReference = EA0F749C1BB2C91B002D9F75 /* WilddogUIChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA0F74B41BB2C91B002D9F75 /* WilddogUIChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0F74CC1BB2C91B002D9F75 /* Build configuration list for PBXNativeTarget "WilddogUIChatTests" */;
+			buildPhases = (
+				EA0F74B11BB2C91B002D9F75 /* Sources */,
+				EA0F74B21BB2C91B002D9F75 /* Frameworks */,
+				EA0F74B31BB2C91B002D9F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0F74B71BB2C91B002D9F75 /* PBXTargetDependency */,
+			);
+			name = WilddogUIChatTests;
+			productName = WilddogUIChatTests;
+			productReference = EA0F74B51BB2C91B002D9F75 /* WilddogUIChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA0F74BF1BB2C91B002D9F75 /* WilddogUIChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0F74CF1BB2C91B002D9F75 /* Build configuration list for PBXNativeTarget "WilddogUIChatUITests" */;
+			buildPhases = (
+				EA0F74BC1BB2C91B002D9F75 /* Sources */,
+				EA0F74BD1BB2C91B002D9F75 /* Frameworks */,
+				EA0F74BE1BB2C91B002D9F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0F74C21BB2C91B002D9F75 /* PBXTargetDependency */,
+			);
+			name = WilddogUIChatUITests;
+			productName = WilddogUIChatUITests;
+			productReference = EA0F74C01BB2C91B002D9F75 /* WilddogUIChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0F74941BB2C91B002D9F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Wilddog;
+				TargetAttributes = {
+					EA0F749B1BB2C91B002D9F75 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EA0F74B41BB2C91B002D9F75 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EA0F749B1BB2C91B002D9F75;
+					};
+					EA0F74BF1BB2C91B002D9F75 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EA0F749B1BB2C91B002D9F75;
+					};
+				};
+			};
+			buildConfigurationList = EA0F74971BB2C91B002D9F75 /* Build configuration list for PBXProject "WilddogUIChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA0F74931BB2C91B002D9F75;
+			productRefGroup = EA0F749D1BB2C91B002D9F75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0F749B1BB2C91B002D9F75 /* WilddogUIChat */,
+				EA0F74B41BB2C91B002D9F75 /* WilddogUIChatTests */,
+				EA0F74BF1BB2C91B002D9F75 /* WilddogUIChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0F749A1BB2C91B002D9F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0F74E71BB2C97D002D9F75 /* Main.storyboard in Resources */,
+				EA0F74E81BB2C97D002D9F75 /* Images.xcassets in Resources */,
+				EA0F74EC1BB2C97D002D9F75 /* MessageTableViewCell.xib in Resources */,
+				EA0F74E61BB2C97D002D9F75 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0F74B31BB2C91B002D9F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0F74BE1BB2C91B002D9F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0F74981BB2C91B002D9F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0F74ED1BB2C97D002D9F75 /* ViewController.m in Sources */,
+				EA0F74E41BB2C97D002D9F75 /* AppDelegate.m in Sources */,
+				EA0F74E91BB2C97D002D9F75 /* Message.m in Sources */,
+				EA0F74EB1BB2C97D002D9F75 /* MessageTableViewCell.m in Sources */,
+				EA0F74EA1BB2C97D002D9F75 /* MessageDataSource.m in Sources */,
+				EA0F74A11BB2C91B002D9F75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0F74B11BB2C91B002D9F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0F74BA1BB2C91B002D9F75 /* WilddogUIChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0F74BC1BB2C91B002D9F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0F74C51BB2C91B002D9F75 /* WilddogUIChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA0F74B71BB2C91B002D9F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0F749B1BB2C91B002D9F75 /* WilddogUIChat */;
+			targetProxy = EA0F74B61BB2C91B002D9F75 /* PBXContainerItemProxy */;
+		};
+		EA0F74C21BB2C91B002D9F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0F749B1BB2C91B002D9F75 /* WilddogUIChat */;
+			targetProxy = EA0F74C11BB2C91B002D9F75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA0F74D61BB2C97D002D9F75 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0F74D71BB2C97D002D9F75 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EA0F74D81BB2C97D002D9F75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0F74D91BB2C97D002D9F75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0F74C71BB2C91B002D9F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA0F74C81BB2C91B002D9F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0F74CA1BB2C91B002D9F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogUIChat",
+				);
+				INFOPLIST_FILE = WilddogUIChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wilddog.WilddogUIChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA0F74CB1BB2C91B002D9F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogUIChat",
+				);
+				INFOPLIST_FILE = WilddogUIChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wilddog.WilddogUIChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA0F74CD1BB2C91B002D9F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WilddogUIChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wilddog.WilddogUIChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilddogUIChat.app/WilddogUIChat";
+			};
+			name = Debug;
+		};
+		EA0F74CE1BB2C91B002D9F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WilddogUIChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wilddog.WilddogUIChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WilddogUIChat.app/WilddogUIChat";
+			};
+			name = Release;
+		};
+		EA0F74D01BB2C91B002D9F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WilddogUIChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wilddog.WilddogUIChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WilddogUIChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA0F74D11BB2C91B002D9F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WilddogUIChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wilddog.WilddogUIChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WilddogUIChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0F74971BB2C91B002D9F75 /* Build configuration list for PBXProject "WilddogUIChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0F74C71BB2C91B002D9F75 /* Debug */,
+				EA0F74C81BB2C91B002D9F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0F74C91BB2C91B002D9F75 /* Build configuration list for PBXNativeTarget "WilddogUIChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0F74CA1BB2C91B002D9F75 /* Debug */,
+				EA0F74CB1BB2C91B002D9F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0F74CC1BB2C91B002D9F75 /* Build configuration list for PBXNativeTarget "WilddogUIChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0F74CD1BB2C91B002D9F75 /* Debug */,
+				EA0F74CE1BB2C91B002D9F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0F74CF1BB2C91B002D9F75 /* Build configuration list for PBXNativeTarget "WilddogUIChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0F74D01BB2C91B002D9F75 /* Debug */,
+				EA0F74D11BB2C91B002D9F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0F74941BB2C91B002D9F75 /* Project object */;
+}

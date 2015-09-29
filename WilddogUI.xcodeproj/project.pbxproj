@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EA0F70AF1BB2579C002D9F75 /* FrameWork */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EA0F70B01BB2579D002D9F75 /* Build configuration list for PBXAggregateTarget "FrameWork" */;
+			buildPhases = (
+				EA0F70B51BB257B2002D9F75 /* ShellScript */,
+			);
+			dependencies = (
+				EA0F70B41BB257AC002D9F75 /* PBXTargetDependency */,
+			);
+			name = FrameWork;
+			productName = FrameWork;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		EA0F709F1BB253B5002D9F75 /* WilddogArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F70991BB253B5002D9F75 /* WilddogArray.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F70A01BB253B5002D9F75 /* WilddogCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709A1BB253B5002D9F75 /* WilddogCollectionViewDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F70A11BB253B5002D9F75 /* WilddogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709B1BB253B5002D9F75 /* WilddogDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F70A21BB253B5002D9F75 /* WilddogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709C1BB253B5002D9F75 /* WilddogTableViewDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F70A31BB253B5002D9F75 /* WilddogUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709D1BB253B5002D9F75 /* WilddogUI.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F70A51BB25418002D9F75 /* WilddogArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70921BB253B5002D9F75 /* WilddogArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0F70A61BB25418002D9F75 /* WilddogArrayDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70931BB253B5002D9F75 /* WilddogArrayDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0F70A71BB25418002D9F75 /* WilddogCollectionViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70941BB253B5002D9F75 /* WilddogCollectionViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0F70A81BB25418002D9F75 /* WilddogDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70951BB253B5002D9F75 /* WilddogDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0F70A91BB25418002D9F75 /* WilddogTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70961BB253B5002D9F75 /* WilddogTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0F70AA1BB25418002D9F75 /* WilddogUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70971BB253B5002D9F75 /* WilddogUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0F70AE1BB255F8002D9F75 /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0F70AD1BB255F8002D9F75 /* Wilddog.framework */; settings = {ASSET_TAGS = (); }; };
+		EA0F74F21BB2CF3A002D9F75 /* XCodeMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F709E1BB253B5002D9F75 /* XCodeMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA0F70B31BB257AC002D9F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0F707D1BB252DF002D9F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0F70841BB252DF002D9F75;
+			remoteInfo = WilddogUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA0F70831BB252DF002D9F75 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA0F70851BB252DF002D9F75 /* libWilddogUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWilddogUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0F70921BB253B5002D9F75 /* WilddogArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WilddogArray.h; sourceTree = "<group>"; };
+		EA0F70931BB253B5002D9F75 /* WilddogArrayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WilddogArrayDelegate.h; sourceTree = "<group>"; };
+		EA0F70941BB253B5002D9F75 /* WilddogCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WilddogCollectionViewDataSource.h; sourceTree = "<group>"; };
+		EA0F70951BB253B5002D9F75 /* WilddogDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WilddogDataSource.h; sourceTree = "<group>"; };
+		EA0F70961BB253B5002D9F75 /* WilddogTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WilddogTableViewDataSource.h; sourceTree = "<group>"; };
+		EA0F70971BB253B5002D9F75 /* WilddogUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WilddogUI.h; sourceTree = "<group>"; };
+		EA0F70991BB253B5002D9F75 /* WilddogArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WilddogArray.m; sourceTree = "<group>"; };
+		EA0F709A1BB253B5002D9F75 /* WilddogCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WilddogCollectionViewDataSource.m; sourceTree = "<group>"; };
+		EA0F709B1BB253B5002D9F75 /* WilddogDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WilddogDataSource.m; sourceTree = "<group>"; };
+		EA0F709C1BB253B5002D9F75 /* WilddogTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WilddogTableViewDataSource.m; sourceTree = "<group>"; };
+		EA0F709D1BB253B5002D9F75 /* WilddogUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WilddogUI.m; sourceTree = "<group>"; };
+		EA0F709E1BB253B5002D9F75 /* XCodeMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCodeMacros.h; sourceTree = "<group>"; };
+		EA0F70AD1BB255F8002D9F75 /* Wilddog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wilddog.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0F70821BB252DF002D9F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0F70AE1BB255F8002D9F75 /* Wilddog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0F707C1BB252DF002D9F75 = {
+			isa = PBXGroup;
+			children = (
+				EA0F70871BB252DF002D9F75 /* WilddogUI */,
+				EA0F70861BB252DF002D9F75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0F70861BB252DF002D9F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F70851BB252DF002D9F75 /* libWilddogUI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0F70871BB252DF002D9F75 /* WilddogUI */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F70AD1BB255F8002D9F75 /* Wilddog.framework */,
+				EA0F70911BB253B5002D9F75 /* API */,
+				EA0F709E1BB253B5002D9F75 /* XCodeMacros.h */,
+			);
+			path = WilddogUI;
+			sourceTree = "<group>";
+		};
+		EA0F70911BB253B5002D9F75 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F70921BB253B5002D9F75 /* WilddogArray.h */,
+				EA0F70931BB253B5002D9F75 /* WilddogArrayDelegate.h */,
+				EA0F70941BB253B5002D9F75 /* WilddogCollectionViewDataSource.h */,
+				EA0F70951BB253B5002D9F75 /* WilddogDataSource.h */,
+				EA0F70961BB253B5002D9F75 /* WilddogTableViewDataSource.h */,
+				EA0F70971BB253B5002D9F75 /* WilddogUI.h */,
+				EA0F70981BB253B5002D9F75 /* Implementation */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EA0F70981BB253B5002D9F75 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F70991BB253B5002D9F75 /* WilddogArray.m */,
+				EA0F709A1BB253B5002D9F75 /* WilddogCollectionViewDataSource.m */,
+				EA0F709B1BB253B5002D9F75 /* WilddogDataSource.m */,
+				EA0F709C1BB253B5002D9F75 /* WilddogTableViewDataSource.m */,
+				EA0F709D1BB253B5002D9F75 /* WilddogUI.m */,
+			);
+			name = Implementation;
+			path = ../Implementation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA0F70A41BB2540E002D9F75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0F70A51BB25418002D9F75 /* WilddogArray.h in Headers */,
+				EA0F70A61BB25418002D9F75 /* WilddogArrayDelegate.h in Headers */,
+				EA0F74F21BB2CF3A002D9F75 /* XCodeMacros.h in Headers */,
+				EA0F70A71BB25418002D9F75 /* WilddogCollectionViewDataSource.h in Headers */,
+				EA0F70A81BB25418002D9F75 /* WilddogDataSource.h in Headers */,
+				EA0F70A91BB25418002D9F75 /* WilddogTableViewDataSource.h in Headers */,
+				EA0F70AA1BB25418002D9F75 /* WilddogUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA0F70841BB252DF002D9F75 /* WilddogUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0F708E1BB252DF002D9F75 /* Build configuration list for PBXNativeTarget "WilddogUI" */;
+			buildPhases = (
+				EA0F70811BB252DF002D9F75 /* Sources */,
+				EA0F70821BB252DF002D9F75 /* Frameworks */,
+				EA0F70831BB252DF002D9F75 /* CopyFiles */,
+				EA0F70A41BB2540E002D9F75 /* Headers */,
+				EA0F70BE1BB284B7002D9F75 /* Build FrameWork */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WilddogUI;
+			productName = WilddogUI;
+			productReference = EA0F70851BB252DF002D9F75 /* libWilddogUI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0F707D1BB252DF002D9F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Wilddog;
+				TargetAttributes = {
+					EA0F70841BB252DF002D9F75 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EA0F70AF1BB2579C002D9F75 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = EA0F70801BB252DF002D9F75 /* Build configuration list for PBXProject "WilddogUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA0F707C1BB252DF002D9F75;
+			productRefGroup = EA0F70861BB252DF002D9F75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0F70841BB252DF002D9F75 /* WilddogUI */,
+				EA0F70AF1BB2579C002D9F75 /* FrameWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA0F70B51BB257B2002D9F75 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Using the default Ray Wenderlich build script http://www.raywenderlich.com/65964/create-a-framework-for-ios\n\nset -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+		EA0F70BE1BB284B7002D9F75 /* Build FrameWork */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build FrameWork";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0F70811BB252DF002D9F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0F70A31BB253B5002D9F75 /* WilddogUI.m in Sources */,
+				EA0F70A01BB253B5002D9F75 /* WilddogCollectionViewDataSource.m in Sources */,
+				EA0F70A11BB253B5002D9F75 /* WilddogDataSource.m in Sources */,
+				EA0F709F1BB253B5002D9F75 /* WilddogArray.m in Sources */,
+				EA0F70A21BB253B5002D9F75 /* WilddogTableViewDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA0F70B41BB257AC002D9F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0F70841BB252DF002D9F75 /* WilddogUI */;
+			targetProxy = EA0F70B31BB257AC002D9F75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA0F708C1BB252DF002D9F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA0F708D1BB252DF002D9F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0F708F1BB252DF002D9F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogUI",
+					"$(PROJECT_DIR)/sdk",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					PROJECT_DIR,
+					"$(SDKROOT)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/WilddogUI/API",
+					"$(PROJECT_DIR)/WilddogUI/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PROJECT_NAME}";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		EA0F70901BB252DF002D9F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WilddogUI",
+					"$(PROJECT_DIR)/sdk",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					PROJECT_DIR,
+					"$(SDKROOT)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/WilddogUI/API",
+					"$(PROJECT_DIR)/WilddogUI/",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PROJECT_NAME}";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		EA0F70B11BB2579D002D9F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA0F70B21BB2579D002D9F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0F70801BB252DF002D9F75 /* Build configuration list for PBXProject "WilddogUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0F708C1BB252DF002D9F75 /* Debug */,
+				EA0F708D1BB252DF002D9F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0F708E1BB252DF002D9F75 /* Build configuration list for PBXNativeTarget "WilddogUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0F708F1BB252DF002D9F75 /* Debug */,
+				EA0F70901BB252DF002D9F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0F70B01BB2579D002D9F75 /* Build configuration list for PBXAggregateTarget "FrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0F70B11BB2579D002D9F75 /* Debug */,
+				EA0F70B21BB2579D002D9F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0F707D1BB252DF002D9F75 /* Project object */;
+}

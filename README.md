@@ -19,7 +19,7 @@ WilddogCollectionViewDataSource | Data source to bind a Wilddog query to a UICol
 WilddogArray | Keeps an array synchronized to a Wilddog query
 WilddogDataSource | Generic superclass to create a custom data source
 
-For a more in-depth explanation of each of the above, check the usage instructions below or read the [docs](https://wilddogui.wilddogapp.com/docs/ios/index.html).
+For a more in-depth explanation of each of the above, check the usage instructions below or read the [docs](http://wilddogui.wilddogapp.com/docs/ios/index.html).
 
 ### WilddogTableViewDataSource
 

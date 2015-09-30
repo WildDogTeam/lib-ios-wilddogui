@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--FirebaseUI Chat-->
+        <!--WilddogUI Chat-->
         <scene sceneID="5Vi-Ss-a4T">
             <objects>
-                <navigationController title="FirebaseUI Chat" id="7RW-VL-qNI" sceneMemberID="viewController">
+                <navigationController title="WilddogUI Chat" id="7RW-VL-qNI" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="77g-XZ-4ot">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -20,10 +20,10 @@
             </objects>
             <point key="canvasLocation" x="-366" y="315"/>
         </scene>
-        <!--FirebaseUI Chat-->
+        <!--WilddogUI Chat-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController title="FirebaseUI Chat" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="WilddogUI Chat" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>

@@ -187,10 +187,10 @@ WilddogArray *array = [[WilddogArray alloc] initWithRef:wilddogRef];
 
 WilddogDataSource acts as a generic data source by providing common information, such as the count of objects in the data source, and by requiring subclasses to implement WilddogArrayDelegate methods as appropriate to the view. This class should never be instantiated, but should be subclassed when creating a specific adapter for a View. [WilddogTableViewDataSource](https://github.com/WildDogTeam/WilddogUI-iOS/blob/master/WilddogUI/Implementation/WilddogTableViewDataSource.m) and [WilddogCollectionViewDataSource](https://github.com/WildDogTeam/WilddogUI-iOS/blob/master/WilddogUI/Implementation/WilddogCollectionViewDataSource.m) are examples of this. WilddogDataSource is essentially a wrapper around a WilddogArray.
 
-### 支持
+## 支持
 如果在使用过程中有任何问题，请提 [issue](https://github.com/WildDogTeam/lib-ios-wilddogui/issues) ，我会在 Github 上给予帮助。
 
-### 相关文档
+## 相关文档
 
 * [Wilddog 概览](https://z.wilddog.com/overview/guide)
 * [iOS SDK快速入门](https://z.wilddog.com/ios/quickstart)
@@ -200,11 +200,11 @@ WilddogDataSource acts as a generic data source by providing common information,
 * [Wilddog FAQ](https://z.wilddog.com/faq/qa)
 
 
-### License
+## License
 MIT
 http://wilddog.mit-license.org/
 
-### 感谢 Thanks
+## 感谢 Thanks
 
 lib-ios-wilddogui is built on and with the aid of several projects. We would like to thank the following projects for helping us achieve our goals:
 

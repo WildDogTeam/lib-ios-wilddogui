@@ -201,8 +201,8 @@ WilddogDataSource acts as a generic data source by providing common information,
 
 
 ## License
-MIT
-http://wilddog.mit-license.org/
+
+[MIT](http://wilddog.mit-license.org/)
 
 ## 感谢 Thanks
 

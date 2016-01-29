@@ -22,18 +22,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		EA0F709F1BB253B5002D9F75 /* WilddogArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F70991BB253B5002D9F75 /* WilddogArray.m */; settings = {ASSET_TAGS = (); }; };
-		EA0F70A01BB253B5002D9F75 /* WilddogCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709A1BB253B5002D9F75 /* WilddogCollectionViewDataSource.m */; settings = {ASSET_TAGS = (); }; };
-		EA0F70A11BB253B5002D9F75 /* WilddogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709B1BB253B5002D9F75 /* WilddogDataSource.m */; settings = {ASSET_TAGS = (); }; };
-		EA0F70A21BB253B5002D9F75 /* WilddogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709C1BB253B5002D9F75 /* WilddogTableViewDataSource.m */; settings = {ASSET_TAGS = (); }; };
-		EA0F70A31BB253B5002D9F75 /* WilddogUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709D1BB253B5002D9F75 /* WilddogUI.m */; settings = {ASSET_TAGS = (); }; };
+		EA0F709F1BB253B5002D9F75 /* WilddogArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F70991BB253B5002D9F75 /* WilddogArray.m */; };
+		EA0F70A01BB253B5002D9F75 /* WilddogCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709A1BB253B5002D9F75 /* WilddogCollectionViewDataSource.m */; };
+		EA0F70A11BB253B5002D9F75 /* WilddogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709B1BB253B5002D9F75 /* WilddogDataSource.m */; };
+		EA0F70A21BB253B5002D9F75 /* WilddogTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709C1BB253B5002D9F75 /* WilddogTableViewDataSource.m */; };
+		EA0F70A31BB253B5002D9F75 /* WilddogUI.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F709D1BB253B5002D9F75 /* WilddogUI.m */; };
 		EA0F70A51BB25418002D9F75 /* WilddogArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70921BB253B5002D9F75 /* WilddogArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA0F70A61BB25418002D9F75 /* WilddogArrayDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70931BB253B5002D9F75 /* WilddogArrayDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA0F70A71BB25418002D9F75 /* WilddogCollectionViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70941BB253B5002D9F75 /* WilddogCollectionViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA0F70A81BB25418002D9F75 /* WilddogDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70951BB253B5002D9F75 /* WilddogDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA0F70A91BB25418002D9F75 /* WilddogTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70961BB253B5002D9F75 /* WilddogTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA0F70AA1BB25418002D9F75 /* WilddogUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F70971BB253B5002D9F75 /* WilddogUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA0F70AE1BB255F8002D9F75 /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0F70AD1BB255F8002D9F75 /* Wilddog.framework */; settings = {ASSET_TAGS = (); }; };
+		EA0F70AE1BB255F8002D9F75 /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0F70AD1BB255F8002D9F75 /* Wilddog.framework */; };
 		EA0F74F21BB2CF3A002D9F75 /* XCodeMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F709E1BB253B5002D9F75 /* XCodeMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 

@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392A69671C5B07BA00CC8E2A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 392A69661C5B07BA00CC8E2A /* libsqlite3.0.tbd */; };
 		396FC9031BBA6ACA0025469E /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396FC9011BBA6AC50025469E /* Wilddog.framework */; };
 		396FC9041BBA6ACA0025469E /* Wilddog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 396FC9011BBA6AC50025469E /* Wilddog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EA0F74A11BB2C91B002D9F75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74A01BB2C91B002D9F75 /* main.m */; };
 		EA0F74BA1BB2C91B002D9F75 /* WilddogUIChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74B91BB2C91B002D9F75 /* WilddogUIChatTests.m */; };
 		EA0F74C51BB2C91B002D9F75 /* WilddogUIChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74C41BB2C91B002D9F75 /* WilddogUIChatUITests.m */; };
-		EA0F74E41BB2C97D002D9F75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74D31BB2C97D002D9F75 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		EA0F74E61BB2C97D002D9F75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74D61BB2C97D002D9F75 /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
-		EA0F74E71BB2C97D002D9F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74D81BB2C97D002D9F75 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		EA0F74E81BB2C97D002D9F75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74DA1BB2C97D002D9F75 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
-		EA0F74E91BB2C97D002D9F75 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74DC1BB2C97D002D9F75 /* Message.m */; settings = {ASSET_TAGS = (); }; };
-		EA0F74EA1BB2C97D002D9F75 /* MessageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74DE1BB2C97D002D9F75 /* MessageDataSource.m */; settings = {ASSET_TAGS = (); }; };
-		EA0F74EB1BB2C97D002D9F75 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74E01BB2C97D002D9F75 /* MessageTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		EA0F74EC1BB2C97D002D9F75 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74E11BB2C97D002D9F75 /* MessageTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		EA0F74ED1BB2C97D002D9F75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74E31BB2C97D002D9F75 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		EA0F74FC1BB2D17F002D9F75 /* WilddogUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0F74FB1BB2D17F002D9F75 /* WilddogUI.framework */; settings = {ASSET_TAGS = (); }; };
+		EA0F74E41BB2C97D002D9F75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74D31BB2C97D002D9F75 /* AppDelegate.m */; };
+		EA0F74E61BB2C97D002D9F75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74D61BB2C97D002D9F75 /* LaunchScreen.xib */; };
+		EA0F74E71BB2C97D002D9F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74D81BB2C97D002D9F75 /* Main.storyboard */; };
+		EA0F74E81BB2C97D002D9F75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74DA1BB2C97D002D9F75 /* Images.xcassets */; };
+		EA0F74E91BB2C97D002D9F75 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74DC1BB2C97D002D9F75 /* Message.m */; };
+		EA0F74EA1BB2C97D002D9F75 /* MessageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74DE1BB2C97D002D9F75 /* MessageDataSource.m */; };
+		EA0F74EB1BB2C97D002D9F75 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74E01BB2C97D002D9F75 /* MessageTableViewCell.m */; };
+		EA0F74EC1BB2C97D002D9F75 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA0F74E11BB2C97D002D9F75 /* MessageTableViewCell.xib */; };
+		EA0F74ED1BB2C97D002D9F75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0F74E31BB2C97D002D9F75 /* ViewController.m */; };
+		EA0F74FC1BB2D17F002D9F75 /* WilddogUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0F74FB1BB2D17F002D9F75 /* WilddogUI.framework */; };
 		EA0F74FE1BB2D211002D9F75 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0F74FD1BB2D211002D9F75 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		392A69661C5B07BA00CC8E2A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		396FC9011BBA6AC50025469E /* Wilddog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wilddog.framework; sourceTree = "<group>"; };
 		EA0F749C1BB2C91B002D9F75 /* WilddogUIChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WilddogUIChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0F74A01BB2C91B002D9F75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392A69671C5B07BA00CC8E2A /* libsqlite3.0.tbd in Frameworks */,
 				EA0F74FE1BB2D211002D9F75 /* JavaScriptCore.framework in Frameworks */,
 				EA0F74FC1BB2D17F002D9F75 /* WilddogUI.framework in Frameworks */,
 				396FC9031BBA6ACA0025469E /* Wilddog.framework in Frameworks */,
@@ -116,6 +119,7 @@
 		EA0F74931BB2C91B002D9F75 = {
 			isa = PBXGroup;
 			children = (
+				392A69661C5B07BA00CC8E2A /* libsqlite3.0.tbd */,
 				EA0F74FD1BB2D211002D9F75 /* JavaScriptCore.framework */,
 				EA0F749E1BB2C91B002D9F75 /* WilddogUIChat */,
 				EA0F74B81BB2C91B002D9F75 /* WilddogUIChatTests */,

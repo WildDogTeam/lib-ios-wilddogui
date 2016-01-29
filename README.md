@@ -192,12 +192,11 @@ WilddogDataSource acts as a generic data source by providing common information,
 
 ## 相关文档
 
-* [Wilddog 概览](https://z.wilddog.com/overview/guide)
-* [iOS SDK快速入门](https://z.wilddog.com/ios/quickstart)
-* [iOS SDK 开发向导](https://z.wilddog.com/ios/guide/1)
-* [iOS SDK API](https://z.wilddog.com/ios/api)
+* [Wilddog 概览](https://z.wilddog.com/overview/introduction)
+* [IOS SDK快速入门](https://z.wilddog.com/ios/quickstart)
+* [IOS SDK API](https://z.wilddog.com/ios/api)
 * [下载页面](https://www.wilddog.com/download/)
-* [Wilddog FAQ](https://z.wilddog.com/faq/qa)
+* [Wilddog FAQ](https://z.wilddog.com/questions)
 
 
 ## License

@@ -12,7 +12,7 @@
 
 @interface ViewController : UIViewController <UITableViewDelegate, UITextFieldDelegate>
 
-@property (strong, nonatomic) Wilddog *ref;
+@property (strong, nonatomic) WDGSyncReference *ref;
 @property (strong, nonatomic) WilddogTableViewDataSource *dataSource;
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;

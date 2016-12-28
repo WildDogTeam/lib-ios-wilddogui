@@ -1,0 +1,7 @@
+framework module WilddogUI {
+  umbrella header "WilddogUI.h"
+
+  export *
+  module * { export * }
+}
+

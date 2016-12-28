@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WilddogUIChat.xcscheme</key>
+		<key>WilddogUI.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2812499A1E13937400DA2504</key>
+		<key>2812495E1E136FF600DA2504</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>281249B31E13937400DA2504</key>
+		<key>281249671E136FF600DA2504</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2812498D1E13772E00DA2504</key>
 		<dict>
 			<key>primary</key>
 			<true/>

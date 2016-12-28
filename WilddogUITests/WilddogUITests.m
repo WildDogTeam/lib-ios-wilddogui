@@ -1,6 +1,6 @@
 //
-//  WilddogUIChatTests.m
-//  WilddogUIChatTests
+//  WilddogUITests.m
+//  WilddogUITests
 //
 //  Created by IMacLi on 2016/12/28.
 //  Copyright © 2016年 liwuyang. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface WilddogUIChatTests : XCTestCase
+@interface WilddogUITests : XCTestCase
 
 @end
 
-@implementation WilddogUIChatTests
+@implementation WilddogUITests
 
 - (void)setUp {
     [super setUp];

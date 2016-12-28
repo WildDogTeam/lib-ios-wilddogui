@@ -1,0 +1,12 @@
+# Xcode
+
+*.xcuserstate
+.DS_Store
+Pods/
+Podfile.lock
+*.xcworkspace
+
+WilddogUIChat/*.xcuserstate
+WilddogUIChat/Pods/
+WilddogUIChat/Podfile.lock
+WilddogUIChat/*.xcworkspace

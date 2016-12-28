@@ -2,8 +2,8 @@
 //  main.m
 //  WilddogUIChat
 //
-//  Created by Mike Mcdonald on 8/20/15.
-//  Copyright (c) 2015 Wilddog, Inc. All rights reserved.
+//  Created by IMacLi on 2016/12/28.
+//  Copyright © 2016年 liwuyang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -6,8 +6,9 @@
 //  Copyright © 2015 Wilddog, Inc. All rights reserved.
 //
 
-#import <WilddogUI/WilddogTableViewDataSource.h>
+#//import <WilddogUI/WilddogTableViewDataSource.h>
 
+#import <WilddogUI/WilddogUI.h>
 #import <Wilddog/Wilddog.h>
 
 @interface MessageDataSource : WilddogTableViewDataSource
